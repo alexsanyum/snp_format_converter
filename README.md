@@ -9,6 +9,12 @@ Currently, the program just support vcf with two alleles.
 The pop file format must be in the next format
 ~~~
 sample1 1
-sample2 2
-sample3
+sample2 1
+sample3 2
+sample3 2
 ~~~
+
+In order to use the program, use the next syntax in the terminal
+
+vcf2stryu.py vcf_file pop_file out_file.stru
+
