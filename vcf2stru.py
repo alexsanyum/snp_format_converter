@@ -81,13 +81,11 @@ def replace_bases(stru, locis):
     for loci in locis:
         stru.loc[stru[loci] == '0',loci] = stru[stru[loci] == '0']['REF']
         stru.loc[stru[loci] == '1',loci] = stru[stru[loci] == '1']['ALT']
-        stru.loc[stru[loci] == '.',loci] = stru[stru[loci] == '.']['ALT']
         stru[loci] = stru[loci].map(mut_stru_dict)
     return stru
 
 usage = '''vcf2stru.py vcf_file pop_map out_file.stru'''
 if __name__== '__main__':
-    print(sys.argv)
     vcf_file = sys.argv[1]
     pop_file = sys.argv[2]
     out_file = sys.argv[3]
