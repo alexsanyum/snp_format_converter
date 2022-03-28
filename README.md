@@ -18,3 +18,7 @@ In order to use the program, use the next syntax in the terminal
 
 vcf2stryu.py vcf_file pop_file out_file.stru
 
+
+### vcf2genepop
+
+This program convert a vcf file into a genepop file. It requieres a population map file. 
