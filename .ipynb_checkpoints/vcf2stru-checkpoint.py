@@ -42,7 +42,7 @@ def vcf_to_stru(vcf_file, pop_map ,stru_out, separator = '\t',):
     
     pop_dict = read_pop_map(pop_map)
     sample_column = structure_file.index.to_series().map(pop_dict)
-    structure_file.insert(0,column = 'sample', value = sample_column)
+    structure_file.insert(0,column = '', value = sample_column)
     structure_file.to_csv(stru_out, sep = '\t')
     return structure_file
 
