@@ -1,4 +1,4 @@
-# snp_format_convertor
+# snp_format_converter
 
 This repository contains Python programs that change the snp file format from vcf to genepop, structure, and ped.
 
