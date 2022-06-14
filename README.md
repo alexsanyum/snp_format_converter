@@ -39,3 +39,12 @@ How to use :
 ~~~
 vcf2genepop.py vcf_file out_file.ped
 ~~~
+
+### stru2phy
+
+This program generated a phylip file from a struc file
+
+How to use:
+~~~
+stru2phy.py stru_file out_file
+~~~
