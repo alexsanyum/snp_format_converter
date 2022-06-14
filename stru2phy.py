@@ -54,7 +54,7 @@ def write_phy(stru_name,out_name):
     phy_df.to_csv(out_name,sep = ' ', mode = 'a', header = False)
     print('Phy file was generated succesfully')
 
-usage = '''vcf2phy.py stru_file out_file.phy'''
+usage = '''stru2phy.py stru_file out_file.phy'''
 if __name__== '__main__':
 	stru_file = sys.argv[1]
 	out_file = sys.argv[2]
