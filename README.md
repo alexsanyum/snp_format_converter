@@ -48,3 +48,12 @@ How to use:
 ~~~
 stru2phy.py stru_file out_file
 ~~~
+
+### fltlknSNP.py 
+This program use a linkage matrix of SNPs to filter linkage raws. 
+
+Its produce a one colunm file with unique no linkage SNP. 
+How to use:
+~~~
+fltlknSNP.py filename out_folder
+~~~
