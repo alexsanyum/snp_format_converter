@@ -57,3 +57,14 @@ How to use:
 ~~~
 fltlknSNP.py filename out_folder
 ~~~
+
+### SNP_subgen.py 
+This program allow to generate a subsample from a SNP whitelist file. 
+
+Its produce a new whitelist that contain the random subsample.
+
+The program takes a folfer that contain one or multiple files and crete new files in a new or existing folder
+How to use:
+~~~
+python SNP_subgen.py in_path out_path n prefix
+~~~
